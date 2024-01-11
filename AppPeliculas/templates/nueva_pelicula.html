@@ -1,0 +1,25 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Peliculas {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<body>
+    <h1>¿Qué pelicula quieres que agreguemos?</h1>
+    <form action="/crearpelicula/" method="post"> {% csrf_token %}
+       <p> Nombre <input type="text" name="nombre"></p>
+       <p> Año <input type="number" name="año"></p>
+       <p> Director <input type="text" name="director"></p>
+       <p> Genero <input type="text" name="genero"></p>
+       <p> Duracion <input type="number" name="duracion"></p>
+        <input type="submit" value="Guardar">
+
+    </form>
+</body>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "padre.html" %}
+{% block titulo %} Bienvenido a Series {% endblock %}
+{% block subtitulo %}  Mejores estreno del mes  {% endblock %}
+{% block boton %} <a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'nueva_serie'%}">Agregar Serie</a> 
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_serie'%}">Buscar Serie</a>{% endblock %}
+
+{% block bloque1 %} La casa de papel: Berlín {% endblock %}
+{% block descripcion_bloque1 %} Durante la época dorada de Berlín, el amor y el dinero son lo que le mueven en la vida. ¿Su próximo gran atraco? Un premio gordo de joyas valorado en 44 millones de euros. {% endblock %}
+{% block img_bloque1 %} "../static/AppPeliculas/assets/img/021.jpeg"  {% endblock %} 
+{% block bloque2 %} Reacher's Back {% endblock %}
+{% block descripcion_bloque2 %} Jack Reacher, un veterano investigador de la policía militar, acaba de incorporarse a la vida civil cuando lo acusan falsamente de asesinato. {% endblock %}
+{% block img_bloque2 %} "../static/AppPeliculas/assets/img/022.jpg"  {% endblock %} 
+{% block bloque3 %} ECHO {% endblock %}
+{% block descripcion_bloque3 %} El despiadado comportamiento de Maya López en Nueva York la alcanza en su ciudad natal. Ella debe enfrentarse a su pasado, reconectar con sus raíces nativas americanas y abrazar el significado de la familia y la comunidad. {% endblock %}
+{% block img_bloque3 %} "../static/AppPeliculas/assets/img/023.jpg" {% endblock %}

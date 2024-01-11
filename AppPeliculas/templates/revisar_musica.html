@@ -1,0 +1,21 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Musica {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<body>
+    <h1>Busca tu cancion por año</h1>
+    <form action="/resultadomusica/" method="GET"> 
+        Ingresa el año de la musica:<input type="number" name="año"></p>
+        <input type="submit" value="buscar">
+
+    </form>
+</body>
+{% endblock %}

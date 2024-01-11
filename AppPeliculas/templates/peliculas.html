@@ -1,0 +1,14 @@
+{% extends "padre.html" %}
+{% block titulo %} Bienvenido a Peliculas {% endblock %}
+{% block subtitulo %} Mejores estreno del mes {% endblock %}
+{% block boton %} <a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'nueva_pelicula'%}">Agregar Pelicula</a> 
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_pelicula'%}">Buscar Pelicula</a>{% endblock %}
+{% block bloque1 %} La sociedad de la nieve: {% endblock %}
+{% block descripcion_bloque1 %} En 1972, un vuelo procedente de Uruguay se estrella en un glaciar en los Andes. Solo 29 de sus 45 pasajeros sobreviven al accidente. Atrapados en uno de los entornos más hostiles del planeta, se ven obligados a luchar por sus vidas. {% endblock %}
+{% block img_bloque1 %} "../static/AppPeliculas/assets/img/011.jpg"  {% endblock %} 
+{% block bloque2 %} ¡PATOS!: {% endblock %}
+{% block descripcion_bloque2 %} Una familia de patos abandona la tranquilidad de su estanque de Nueva Inglaterra para visitar Jamaica. Sin embargo, la aventura da un giro inesperado cuando se pierden en la ciudad de Nueva York. {% endblock %}
+{% block img_bloque2 %} "../static/AppPeliculas/assets/img/012.jpg"  {% endblock %} 
+{% block bloque3 %} Wonka: {% endblock %}
+{% block descripcion_bloque3 %} La historia se centra en el joven Willy Wonka y en cómo conoció a los Oompa-Loompas en una de sus primeras aventuras. {% endblock %}
+{% block img_bloque3 %} "../static/AppPeliculas/assets/img/013.jpg" {% endblock %}

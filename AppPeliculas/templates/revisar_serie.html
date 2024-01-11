@@ -1,0 +1,21 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Series {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<body>
+    <h1>Busca tu serie por año</h1>
+    <form action="/resultadoserie/" method="GET"> 
+        Ingresa el año de la serie:<input type="number" name="año"></p>
+        <input type="submit" value="buscar">
+
+    </form>
+</body>
+{% endblock %}

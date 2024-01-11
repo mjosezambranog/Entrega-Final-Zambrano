@@ -1,0 +1,12 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Peliculas {% endblock %}
+
+
+{% block formulario %}
+<body>
+    <h1>Peliculas del año buscado:</h1>
+    {%for x in pelicula%}
+    <p>{{x.nombre}}</p>
+    {%endfor%}
+</body>
+{% endblock %}

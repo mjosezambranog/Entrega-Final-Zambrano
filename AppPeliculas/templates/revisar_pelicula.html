@@ -1,0 +1,21 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Peliculas {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<body>
+    <h1>Busca tu pelicula por año</h1>
+    <form action="/resultadopelicula/" method="GET"> 
+        Ingresa el año de la pelicula:<input type="number" name="año"></p>
+        <input type="submit" value="buscar">
+
+    </form>
+</body>
+{% endblock %}
