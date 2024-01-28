@@ -67,11 +67,18 @@ Botones:
     BUSCAR CANCION: BUSCAR UNA CANCION POR AÑO (Funcional) 
 
 Tecnología Utilizada
-Front-End
+Front-End:
+
     HTML 5
     CSS 3
     Javascript ES6
     Bootstrap 5.2
-Back-End
+
+Back-End:
+
     Python 3.11
     Django 4.0
+
+Aquí pueden encontrar un video con la pagina en funcionamiento: 
+
+    sadsadas
