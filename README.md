@@ -3,15 +3,16 @@ Entrega Final+Zambrano WEB Django con patrón MVT
 
 Mi página web tiene los siguientes modelos:
 
-Películas
-Series
-Musica
-Avatar
+    Películas
+    Series
+    Musica
+    Avatar
+
 Para iniciar el servidor tienen que tener Django instalado. Luego, tienen que escribir el comando 'python manage.py runserver'. Luego se presentará el enlace para acceder a la página de inicio.
 
 Las ULR son:
 
-    admin/ : Pagina para usuarios tipo staff
+    admin/ : Pagina para usuarios tipo staff (Admin Page)
     series/ : Acceso a datos de series
     peliculas/ : Acceso a datos de peliculas
     musica/ : Acceso a datos de musica
@@ -44,7 +45,7 @@ Las ULR son:
     delpelicula/ : Pagina donde se elimina la pelicula
     delmusica/ : Pagina donde se elimina la cancion
 
-
+Notas: El avatar solo puede ser asignado por el staff en el "Admin Page"
 
 Botones: 
 
@@ -53,12 +54,24 @@ Botones:
     PELICULAS: Ingresa a la URL de peliculas (funcional) 
     SERIES: Ingresa a la URL de series (funcional) 
     MUSICA: Ingresa a la URL de musica (funcional) 
-    SIGN UP: Registrarse a la página(no funcional) 
-    LOG IN: Ingresar a la página(no funcional) 
+    Hola "Usuario": Ingresar a la página con los datos del usuario activo (funcional) 
+    ABOUT: Ingresar a la página de la creadora (funcional) 
+    SIGN UP: Registrarse a la página(funcional) 
+    LOG IN: Ingresar a la página(funcional) 
     VER MEJORES ESTRENOS: Hacer un pequeño scroll para presentar el texto(Funcional) 
-    AGREGAR PELICULA: AGREGA UNA PELICULA 
-    AGREGAR SERIE: AGREGA UNA SERIE 
-    AGREGAR CANCION: AGREGA UNA CANCION 
-    BUSCAR PELICULA: BUSCAR UNA PELICULA POR AÑO 
-    BUSCAR SERIE: BUSCAR UNA SERIE POR AÑO 
-    BUSCAR CANCION: BUSCAR UNA CANCION POR AÑO
+    AGREGAR PELICULA: AGREGA UNA PELICULA (Funcional) 
+    AGREGAR SERIE: AGREGA UNA SERIE (Funcional) 
+    AGREGAR CANCION: AGREGA UNA CANCION (Funcional) 
+    BUSCAR PELICULA: BUSCAR UNA PELICULA POR AÑO (Funcional) 
+    BUSCAR SERIE: BUSCAR UNA SERIE POR AÑO (Funcional) 
+    BUSCAR CANCION: BUSCAR UNA CANCION POR AÑO (Funcional) 
+
+Tecnología Utilizada
+Front-End
+    HTML 5
+    CSS 3
+    Javascript ES6
+    Bootstrap 5.2
+Back-End
+    Python 3.11
+    Django 4.0
