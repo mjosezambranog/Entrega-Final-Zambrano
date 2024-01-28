@@ -77,7 +77,7 @@ Front-End:
 Back-End:
 
     Python 3.11
-    Django 4.0
+    Django 5.0.1
 
 Aquí pueden encontrar un video con la pagina en funcionamiento: 
 
