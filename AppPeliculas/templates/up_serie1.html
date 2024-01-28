@@ -1,0 +1,28 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Series{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+
+
+
+
+<body>
+    <h1>¿Qué serie quieres que actualicemos?</h1>
+    <form action="" method="post"> {% csrf_token %}
+        <p> Nombre <input type="text" name="nombre"></p>
+        <input type="submit" value="Actualizar Serie">
+    </form>
+</body>
+
+
+{% endblock %}

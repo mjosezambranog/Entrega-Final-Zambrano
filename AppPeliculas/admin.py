@@ -8,3 +8,4 @@ from AppPeliculas.models import *
 admin.site.register(serie)
 admin.site.register(musica)
 admin.site.register(pelicula)
+admin.site.register(Avatars)

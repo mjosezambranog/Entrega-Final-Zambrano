@@ -1,0 +1,26 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Series as{% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+
+
+<h1>Acá actualizamos una serie (Presiona en "Update" para comenzar)</h1>
+    <form action="" method="POST"> {% csrf_token %}
+        
+        {{ mi_formu.as_p }}
+        
+        <input type="submit" value="Update">
+
+    </form>
+
+
+
+{% endblock %}

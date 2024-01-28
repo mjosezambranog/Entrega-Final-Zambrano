@@ -1,0 +1,28 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Listado de Musica {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+
+
+<ul>
+{% for x in canciones %}
+
+<li>{{x}}</li> 
+
+{% endfor %}
+</ul>
+{% endblock %}
+
+{% block boton %} <a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'nueva_musica'%}">Agregar Canción</a> 
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_musica'%}">Buscar Cancion</a>{% endblock %}
+
+
+

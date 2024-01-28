@@ -1,0 +1,28 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Musica{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+
+
+
+
+<body>
+    <h1>¿Qué cancion quieres que borremos?</h1>
+    <form action="" method="post"> {% csrf_token %}
+        <p> Nombre <input type="text" name="nombre"></p>
+        <input type="submit" value="Borrar musica">
+    </form>
+</body>
+
+
+{% endblock %}

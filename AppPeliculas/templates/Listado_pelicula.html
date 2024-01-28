@@ -1,0 +1,20 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Listado Peliculas {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<ul>
+{% for x in peliculas %}
+
+<li>{{x}}</li> 
+
+{% endfor %}
+</ul>
+{% endblock %}

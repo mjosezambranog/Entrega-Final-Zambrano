@@ -1,0 +1,31 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} 
+<style>
+    body {
+      font-size: 20px; /* Cambia el tamaño de la fuente según tus necesidades */
+    }
+    
+  </style>
+<h1>Bienvenido </h1>
+<h1>Inicia Sesion </h1>
+
+{% endblock %}
+{% block formulario %}
+  
+<body><p>
+
+<form action="" method="POST">  {% csrf_token %}
+
+    {{ formu }}
+
+
+</p>
+
+<p><input type="submit" value="Ingresar"></p>
+</form>
+  </body>
+
+
+ 
+{% endblock %}
+

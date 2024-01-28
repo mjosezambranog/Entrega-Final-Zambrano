@@ -1,0 +1,45 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Sobre Mi {% endblock %}
+{% block subtitulo %}
+
+<section id="scroll">
+    <div class="container px-5">
+        <div class="row gx-5 align-items-center">
+            <div class="col-lg-6 order-lg-2">
+                <div class="p-5"><img class="img-fluid rounded-circle" src=   "../static/AppPeliculas/assets/img/04.jpeg"  alt="..." /></div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+                <div class="p-5">
+                    <h2 class="display-4">{% block bloque1 %} {% endblock %}</h2>
+
+                    <p> 
+                        
+                        
+                        
+                        
+                        
+                        
+                        Hola a todos! Muchas gracias por visitar mi pagina!</p>
+
+                    <p>   Mi nombre es Maria Jose Zambrano, tengo 27 años y soy de Chile.
+                        Estudié Ingeniería Civil Industrial y actualmente trabajo en una empresa como Ingeniera de operaciones financieras.</p> 
+
+                    <p>   Mi familia esta compuesta por mi pololo Eddy y mis 2 hijos/gatos, Duki y Molly.</p> 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}
+
+
+{% block boton %} 
+<p> Te invito a iniciar sesión o registrarte en mi pagina Web</p>
+
+<p>
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'registrar'%}">Registrarse</a> 
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'login_user'%}">Iniciar sesión</a> </p>
+{% endblock %}
+

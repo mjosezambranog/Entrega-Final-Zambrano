@@ -2,7 +2,11 @@
 {% block titulo %} Bienvenido a Peliculas {% endblock %}
 {% block subtitulo %} Mejores estreno del mes {% endblock %}
 {% block boton %} <a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'nueva_pelicula'%}">Agregar Pelicula</a> 
-<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_pelicula'%}">Buscar Pelicula</a>{% endblock %}
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_pelicula'%}">Buscar Pelicula</a> 
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'lista_pelicula'%}">Listado de Peliculas</a>
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'up_pelicula1'%}">Actualizar listado de Peliculas</a>
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'del_pelicula'%}">Borrar Pelicula</a>
+{% endblock %}
 {% block bloque1 %} La sociedad de la nieve: {% endblock %}
 {% block descripcion_bloque1 %} En 1972, un vuelo procedente de Uruguay se estrella en un glaciar en los Andes. Solo 29 de sus 45 pasajeros sobreviven al accidente. Atrapados en uno de los entornos más hostiles del planeta, se ven obligados a luchar por sus vidas. {% endblock %}
 {% block img_bloque1 %} "../static/AppPeliculas/assets/img/011.jpg"  {% endblock %} 

@@ -1,0 +1,20 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Listado Series {% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<ul>
+{% for x in series %}
+
+<li>{{x}}</li> 
+
+{% endfor %}
+</ul>
+{% endblock %}

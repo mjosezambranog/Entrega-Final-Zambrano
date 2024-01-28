@@ -2,7 +2,11 @@
 {% block titulo %} Bienvenido a musica {% endblock %}
 {% block subtitulo %}  Mejores estreno del mes  {% endblock %}
 {% block boton %} <a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'nueva_musica'%}">Agregar Canción</a> 
-<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_musica'%}">Buscar Cancion</a>{% endblock %}
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'revisar_musica'%}">Buscar Cancion</a> 
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'lista_musica'%}">Listado de Canciones</a>
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'up_musica1'%}">Actualizar listado de Canciones</a>
+<a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'del_musica'%}">Borrar Musica</a>
+{% endblock %}
 {% block bloque1 %} Luna {% endblock %}
 {% block descripcion_bloque1 %} Feid la vuelve a romper en conjunto con Jacob en su nuevo album. En este album recomendamos si o si escuchar Luna. {% endblock %}
 {% block img_bloque1 %} "../static/AppPeliculas/assets/img/031.jpg"  {% endblock %} 

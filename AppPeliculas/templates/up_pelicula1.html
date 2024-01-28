@@ -1,0 +1,22 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Peliculas{% endblock %}
+
+
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<body>
+    <h1>¿Qué pelicula quieres que actualicemos?</h1>
+    <form action="" method="post"> {% csrf_token %}
+        <p> Nombre <input type="text" name="nombre"></p>
+        <input type="submit" value="Actualizar Pelicula">
+    </form>
+</body>
+{% endblock %}

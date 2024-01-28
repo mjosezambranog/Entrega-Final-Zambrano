@@ -1,16 +1,28 @@
 {% extends "padre.html" %}
-{% block titulo %} Bienvenido {% endblock %}
-{% block subtitulo %} Al mejor lugar para hablar de peliculas, series y musica {% endblock %}
+{% block titulo %} Bienvenido {{ mensaje1 }}
+{% endblock %}
+
+{% block subtitulo %} Al mejor lugar para hablar de peliculas, series y musica
+<p></p>
+<p>{{ mensaje2 }}</p>
+{% endblock %}
 
 
 {% block bloque1 %} Sobre Peliculas: {% endblock %}
-{% block descripcion_bloque1 %} En este pagina podrás encontrar reseñas sobre los mejores estrenos del mes y recomendaciones para que tengas un buen panorama con palomitas. {% endblock %}
+{% block descripcion_bloque1 %} <p>En este pagina podrás encontrar reseñas sobre los mejores estrenos del mes y recomendaciones para que tengas un buen panorama con palomitas. 
+</p>
+    <p><a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'Peliculas'%}">Ir a Peliculas</a> </p>
+{% endblock %}
 {% block img_bloque1 %} "../static/AppPeliculas/assets/img/01.jpg"  {% endblock %} 
 
 {% block bloque2 %} Sobre Series: {% endblock %}
-{% block descripcion_bloque2 %} Te damos las mejores recomendaciones para maratonear durantes tus fines de semanas. Y durante la semana tambien. {% endblock %}
+{% block descripcion_bloque2 %} <p>Te damos las mejores recomendaciones para maratonear durantes tus fines de semanas. Y durante la semana tambien. 
+</p>
+<p><a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'Series'%}">Ir a Series</a> </p>{% endblock %}
 {% block img_bloque2 %} "../static/AppPeliculas/assets/img/02.png"  {% endblock %} 
 
 {% block bloque3 %} Sobre Musica: {% endblock %}
-{% block descripcion_bloque3 %} Podrás encontrar los mejores temas recien salidos del horno. {% endblock %}
+{% block descripcion_bloque3 %}<p> Podrás encontrar los mejores temas recien salidos del horno. 
+</p>
+<p><a class="btn btn-primary btn-xl rounded-pill mt-5" href="{% url 'Musica'%}">Ir a Musica</a> </p>{% endblock %}
 {% block img_bloque3 %} "../static/AppPeliculas/assets/img/03.png" {% endblock %}

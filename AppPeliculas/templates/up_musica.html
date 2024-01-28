@@ -1,0 +1,21 @@
+{% extends "padre_formulario.html" %}
+{% block titulo %} Bienvenido a Musica{% endblock %}
+
+
+
+
+
+
+
+
+
+{% block formulario %}
+<h1>Acá actualizamos una Cancion (Presiona en "Update" para comenzar) </h1>
+    <form action="" method="POST"> {% csrf_token %}
+        
+        {{ mi_formu }}
+        
+        <input type="submit" value="Update">
+
+    </form>
+{% endblock %}
